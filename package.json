@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "expo": "~45.0.0",
+    "expo-localization": "~13.0.0",
     "expo-status-bar": "~1.3.0",
+    "i18n-js": "^3.9.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-native": "0.68.2",
@@ -19,8 +21,10 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
+    "@types/i18n-js": "^3.8.2",
     "@types/react": "~17.0.21",
     "@types/react-native": "~0.66.13",
+    "babel-plugin-module-resolver": "^4.1.0",
     "typescript": "~4.3.5"
   },
   "private": true
